@@ -9,15 +9,15 @@ const os = require('os');
 // 1. 哪吒探针配置
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nezha.mingfei1981.eu.org';
 const NEZHA_PORT = process.env.NEZHA_PORT || '443';
-const NEZHA_KEY = process.env.NEZHA_KEY || 'tVOIvHnIf4wpeuBSOP';
+const NEZHA_KEY = process.env.NEZHA_KEY || '';
 
 // 2. 通用 / Vless 核心配置
 const UUID = process.env.UUID || 'faacf142-dee8-48c2-8558-641123eb939c';
 const ARGO_PORT = process.env.ARGO_PORT || '8001';
 
 // 3. Argo 隧道配置
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'ethiodeploy.mu2023.eu.org';
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYmRiNzUxYWY5NDBiNWM3NGI4MTRiZWNkMzE0MWYwYTUiLCJ0IjoiODg4ZjEzZTItMjU0NC00OWI0LTkxMjgtMTAxMjQ2YWM1NDJmIiwicyI6Ik9UWTROelE1TmpVdE16ZzBaaTAwWXpKbExUazNZekF0T0dWak9EaGpNamMwTm1WbCJ9';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';
+const ARGO_AUTH = process.env.ARGO_AUTH || '';
 
 // 4. Web 服务端口
 const PORT = process.env.PORT || 3000;
