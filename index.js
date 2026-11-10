@@ -140,7 +140,7 @@ function ensureIndexHtml() {
             <div><span class="label">想当年</div>
             <div><span class="label">金戈铁马</div>
             <div><span class="label">气吞万里</div>
-            <div><span class="label">如虎}</div>
+            <div><span class="label">如虎</div>
         </div>
     </div>
 </body>
