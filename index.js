@@ -134,13 +134,13 @@ function ensureIndexHtml() {
     <div class="card">
         <h1>服务运行中</h1>
         <div class="status">● Online</div>
-        <p>Vless + Cloudflare Argo + 哪吒探针 已启动</p>
+        <p>已启动</p>
         <p>健康检查接口正常，页面由 Node.js 静态服务提供</p>
         <div class="info">
-            <div><span class="label">UUID</span> ${UUID}</div>
-            <div><span class="label">Argo Port</span> ${ARGO_PORT}</div>
-            <div><span class="label">Web Port</span> ${PORT}</div>
-            <div><span class="label">Domain</span> ${ARGO_DOMAIN || '未配置'}</div>
+            <div><span class="label">想当年</div>
+            <div><span class="label">金戈铁马</div>
+            <div><span class="label">气吞万里</div>
+            <div><span class="label">如虎}</div>
         </div>
     </div>
 </body>
